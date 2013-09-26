@@ -5,31 +5,52 @@
         <title>Accueil</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width,intial-scale=1.0">
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="librairies/bootstrap/css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="contenu/style.css" type="text/css"/>
     </head>
-    <body>
-        <div>
-            <nav class="navbar accueil" role="navigation">
-                <a class="navbar-brand" href="accueil.html">SeedBox Sells</a>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">SeedBox</a></li>
-                </ul>
-                <ul>
-                    <li><a href="#">Types d'abonnement</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Fournisseurs</a></li>
-                </ul>
-            </nav>
+
+
+    <body>      
+
+        <nav class="navbar navbar-default" role="navigation">
+            <a class="navbar-brand" href="#">SeedBox Sell</a>
+        </nav>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="msg_bienvenue">
+                    <strong>Bienvenue sur le site SeedBox Sell, la référence en matière de location de Seed Box.</strong> 
+                </p>
+            </div>
         </div>
-        <div class="breadcrumb"><a href="#" class="first">Accueil</a><span class="sep"> &gt; </span></div>
-        <div class="col-xs-3">
-            <ul class="nav nav-pills nav-stacked">
-                <li class="active"><a href="">Accueil</a></li>
-                <li><a href="">Profil</a></li>
-                <li><a href="">Messages</a></li>
-            </ul>
+        <div class="breadcrumb"><a href="#" class="first">Accueil</a><span></span></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul id="css3menu1" class="topmenu">
+                        <li class="topmenu"><a href="#" title="Accueil" style="width:154px;">Accueil</a></li>
+                        <li class="topmenu"><a href="#" title="Types d'abonnement" style="width:154px;"><span>Abonnements</span></a>
+                            <ul>
+                                <li><a href="#" title="1 mois">1 mois</a></li>
+                                <li><a href="#" title="3 mois"><span>3 mois</span></a></li>
+                                <li><a href="#" title="6 mois">6 mois</a></li>
+                                <li><a href="#" title="1 an"><span>1 an</span></a></li>
+                            </ul></li>
+                        <li class="topmenu"><a href="#" title="Fournisseurs" style="width:154px;"><span>Fournisseurs</span></a>
+                            <ul>
+                                <li><a href="#" title="OVH">OVH</a></li>
+                                <li><a href="#" title="SeedBoxSell">SeedBoxSell</a></li>
+                            </ul></li>
+                    </ul>
+                </div>
+                <div class="col-md-9">
+                    <img class="img_accueil" src="contenu\Images\smtp-server.jpg" width="450" height="300"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <footer>COMLAR Rémi - NGUYEN Huy Bao</footer>
+                </div>
+            </div> 
         </div>
-        <footer>COMLAR Rémi - NGUYEN Huy Bao</footer>
     </body>
 </html>
