@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Accueil</title>
+        <title>Abonnement</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width,intial-scale=1.0">
         <link rel="stylesheet" href="librairies/bootstrap/css/bootstrap.min.css" type="text/css"/>
@@ -16,14 +16,8 @@
             <a class="navbar-brand" href="accueil.html">SeedBox Sell</a>
         </nav>
 
-        <div class="breadcrumb"><a href="accueil.html" class="first">Accueil</a></div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="msg_bienvenue">
-                    <strong>Bienvenue sur le site SeedBox Sell, la référence en matière de location de Seed Box.</strong> 
-                </p>
-            </div>
-        </div>
+        <div class="breadcrumb"><a href="accueil.html" class="first">Accueil</a><a> > </a>
+            <a href="abonnement.html" class="second">Abonnements</a></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -34,7 +28,20 @@
                     </ul>
                 </div>
                 <div class="col-md-9">
-                    <img class="img-responsive" src="contenu\Images\smtp-server.jpg" width="450" height="300"/>
+                    <div class="row">
+                        <!-- Taille 6 sur smartphones, 4 sur tablettes, 3 sur desktop et plus -->
+                        <div class="col-xs-6 col-sm-4 col-md-3">
+                            Zone de gauche
+                        </div>
+                        <!-- Taille 6 sur smartphones et tablettes, 7 sur desktop et plus -->
+                        <div class="col-xs-6 col-md-7">
+                            Zone du centre
+                        </div>
+                        <!-- Masquée sur smartphones, taille 2 sur tablettes et plus -->
+                        <div class="col-sm-2 hidden-xs">
+                            Zone de droite
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
