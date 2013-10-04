@@ -1,27 +1,18 @@
-/* 
-    Document   : style
-    Created on : 24 sept. 2013, 08:52:58
-    Author     : rcoml
-    Description:
-        Purpose of the stylesheet follows.
-*/
-
 root { 
     display: block;
 }
 
-.img_accueil {
-    
-    border-radius: 10px;
-
-}
-
-footer
+body
 {
-    text-align: center;
+    background-image: url('Images/Blurry-Blue-Background-IV.jpg');
 }
 
-.msg_bienvenue
+.img_accueil {
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.msg_bienvenue,footer
 {
     text-align: center;
 }
@@ -31,18 +22,55 @@ footer
     
     border-width:0;
     border-style:solid;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 li.nav_accueil
 {
     background-color: #1ABC9C;
     margin-bottom: 7px;
     color: #FFFFFF;
+    text-align: center;
+    list-style-type: none;
    
 }
-a
+
+.img_frs
 {
-    color: rgb(1,55,252);
+    width: 100px;
+    height: 100px;
 }
 
 
+.breadcrumb, li.nav_accueil,.navbar-default
+{
+    background-color: #4A7D8E;
+}
+
+.col-sm-4
+{
+    margin-right: 10px;
+    text-align: center;
+}
+
+a, .msg, footer, a.list-group-item, a.navbar-brand
+
+{
+    color: #FFFFFF;
+}
+
+footer.breadcrumb
+{
+    background-color: #325561;
+    margin-bottom: -4px;
+}
+
+a.list-group-item
+{
+    background-color: #325561;
+    width: 154px;
+}
+
+div.container.breadcrumb, div.breadcrumb
+{
+    border:1px solid #ddd;
+}

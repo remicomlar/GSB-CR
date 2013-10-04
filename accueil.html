@@ -7,41 +7,45 @@
         <meta name="viewport" content="width=device-width,intial-scale=1.0">
         <link rel="stylesheet" href="librairies/bootstrap/css/bootstrap.min.css" type="text/css"/>
         <link rel="stylesheet" href="contenu/style.css" type="text/css"/>
+        <link rel="icon" type="text/css" href="contenu/Images/favicon.ico"/>
     </head>
 
 
-    <body>      
+    <body>
 
         <nav class="navbar navbar-default" role="navigation">
-            <a class="navbar-brand" href="accueil.html">SeedBox Sell</a>
+            <a class="navbar-brand" href="accueil.html"><span class="nom_site">SeedBox Sell</span></a>
         </nav>
-
-        <div class="breadcrumb"><a href="accueil.html" class="first">Accueil</a></div>
         <div class="row">
             <div class="col-md-12">
                 <p class="msg_bienvenue">
-                    <strong>Bienvenue sur le site SeedBox Sell, la référence en matière de location de Seed Box.</strong> 
+                    <strong class="msg">Bienvenue sur le site SeedBox Sell, la référence en matière de location de Seed Box.</strong> 
                 </p>
             </div>
         </div>
-        <div class="container">
+        <div class="breadcrumb"><a href="accueil.html" class="first">Accueil</a></div>
+        <div class="container breadcrumb">
             <div class="row">
                 <div class="col-md-3">
-                    <ul id="css3menu1" class="nav_accueil">
-                        <li class="nav_accueil"><a href="accueil.html" title="Accueil" style="width:154px;"><span>Accueil</span></a></li>
-                        <li class="nav_accueil"><a href="abonnement.html" title="Abonnements" style="width:154px;"><span>Abonnements</span></a>    
-                        <li class="nav_accueil"><a href="fournisseur.html" title="Fournisseurs" style="width:154px;"><span>Fournisseurs</span></a></li>
-                    </ul>
+                    <div class="list-group">
+                        <a class="list-group-item" href="accueil.html" title="Accueil">Accueil</a>
+                        <a class="list-group-item" href="abonnement.html" title="Abonnements">Abonnement 1 mois<span class="badge">7</span></a>
+                        <a class="list-group-item" href="abonnement.html" title="Abonnements">Abonnements 3 mois<span class="badge">7</span></a> 
+                        <a class="list-group-item" href="abonnement.html" title="Abonnements">Abonnements 6 mois<span class="badge">7</span></a> 
+                        <a class="list-group-item" href="fournisseur.html" title="Fournisseurs">Fournisseurs<span class="badge">3</span></a>
+                    </div>
                 </div>
                 <div class="col-md-9">
-                    <img class="img-responsive" src="contenu\Images\smtp-server.jpg" width="450" height="300"/>
+                    <img class="img-responsive" src="contenu/Images/smtp-server.jpg"/>
                 </div>
             </div>
-            <div class="row">
+            <footer class="breadcrumb">
                 <div class="col-md-12">
-                    <footer>COMLAR Rémi - NGUYEN Huy Bao</footer>
+                    <span>COMLAR Rémi - NGUYEN Huy Bao</span> 
                 </div>
-            </div> 
+            </footer>
         </div>
+
+
     </body>
 </html>
