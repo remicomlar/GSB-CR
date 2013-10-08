@@ -10,6 +10,7 @@ body
 .img_accueil {
     border-radius: 10px;
     margin-bottom: 30px;
+
 }
 
 .msg_bienvenue,footer
@@ -23,6 +24,7 @@ body
     border-width:0;
     border-style:solid;
     border-radius: 10px;
+
 }
 li.nav_accueil
 {
@@ -52,7 +54,7 @@ li.nav_accueil
     text-align: center;
 }
 
-a, .msg, footer, a.list-group-item, a.navbar-brand
+a, .msg, footer, a.list-group-item, a.navbar-brand, span.nom_site
 
 {
     color: #FFFFFF;
@@ -67,10 +69,15 @@ footer.breadcrumb
 a.list-group-item
 {
     background-color: #325561;
-    width: 154px;
+    width: 200px;
 }
 
 div.container.breadcrumb, div.breadcrumb
 {
     border:1px solid #ddd;
+}
+
+div.col-md-3
+{
+    margin-right: -9px;
 }
