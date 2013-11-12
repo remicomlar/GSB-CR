@@ -18,19 +18,13 @@
         <nav class="navbar navbar-default" role="navigation">
             <a class="navbar-brand" href="accueil.html"><span class="nom_site">SeedBox Sell</span></a>
         </nav>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="msg_bienvenue">
-                    <strong class="msg">Bienvenue sur le site SeedBox Sell, la référence en matière de location de Seed Box.</strong> 
-                </p>
-            </div>
-        </div>
+        
         <div class="container breadcrumb">
             <div class="row">
-                
+                <!-- #contenu -->
                 <div id="contenu">
                     <?= $contenu ?>
-                </div> <!-- #contenu -->
+                </div> 
                 <footer class="breadcrumb">
                     <div class="col-md-12">
                         <span>COMLAR Rémi - NGUYEN Huy Bao</span> 
