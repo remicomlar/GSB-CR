@@ -72,9 +72,9 @@ INSERT INTO T_FOURNISSEUR VALUES('01', 'OVH');
 INSERT INTO T_FOURNISSEUR VALUES('02', '1&1');
 INSERT INTO T_FOURNISSEUR VALUES('03', 'seedbox.fr');
 
-INSERT INTO T_SEEDBOX VALUES(001, '01', 'A01', 'Hébergement 1 mois', '10/09/2013', '6', ' ');
-INSERT INTO T_SEEDBOX VALUES(002, '01', 'A06', 'Hébergement 6 mois', '10/09/2013', '30', ' ');
-INSERT INTO T_SEEDBOX VALUES(003, '01', 'A12', 'Hébergement Gold', '10/09/2013', '50', ' ');
-INSERT INTO T_SEEDBOX VALUES(004, '02', 'A06', 'Hébergement 6 mois', '10/09/2013', '30', ' ');
-INSERT INTO T_SEEDBOX VALUES(005, '03', 'A12', 'Hébergement annuel', '10/09/2013', '60', ' ');
-INSERT INTO T_SEEDBOX VALUES(006, '03', 'A27', 'Hébergement 2 ans avec 3 mois offerts', '10/09/2013', '110', ' ');
+INSERT INTO T_SEEDBOX VALUES(001, '01', 'A01', 'H�bergement 1 mois', '10/09/2013', '6', ' ');
+INSERT INTO T_SEEDBOX VALUES(002, '01', 'A06', 'H�bergement 6 mois', '10/09/2013', '30', ' ');
+INSERT INTO T_SEEDBOX VALUES(003, '01', 'A12', 'H�bergement Gold', '10/09/2013', '50', ' ');
+INSERT INTO T_SEEDBOX VALUES(004, '02', 'A06', 'H�bergement 6 mois', '10/09/2013', '30', ' ');
+INSERT INTO T_SEEDBOX VALUES(005, '03', 'A12', 'H�bergement annuel', '10/09/2013', '60', ' ');
+INSERT INTO T_SEEDBOX VALUES(006, '03', 'A27', 'H�bergement 2 ans avec 3 mois offerts', '10/09/2013', '110', ' ');
