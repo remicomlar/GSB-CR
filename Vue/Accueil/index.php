@@ -1,20 +1,14 @@
 <?php $this->titre = "SeedBoxSell"; ?>
 
-<div class="breadcrumb"><a href="accueil.php" class="first">Accueil</a></div>
+<div class="breadcrumb"><a href="index.php" class="first">Accueil</a></div>
 
 <div class="row">
     <div class="col-md-3">
         <div class="list-group">
-            <a class="list-group-item" href="accueil.html" title="Accueil">Accueil</a>
+            <a class="list-group-item" href="index.php" title="Accueil">Accueil</a>
 
-            <?php
-            foreach ($stmtCategories as $ligne) :
-                $libcat = $this-> $nettoyer($ligne['F_NOMFRS']);
-                $nombre = $this->$nettoyer($ligne['nbpdt']);
-
-                echo "<a class='list-group-item' href='abonnement.html'>$libcat<span class='badge'>$nombre</span> </a>";
-            
-            ?>
+            <?php foreach ($fournisseurs as $fournisseur) : ?>
+                <a class='list-group-item' href='abonnement.html'><?= $this-> nettoyer($fournisseur['F_NOMFRS'])?><span class='badge'></span></a>
             <?php endforeach; ?>
         </div>
     </div>

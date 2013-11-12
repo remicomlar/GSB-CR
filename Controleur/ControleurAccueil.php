@@ -1,20 +1,22 @@
 <?php
 
 require_once 'Framework/Controleur.php';
-require_once 'Modele/produit.php';
+require_once 'Modele/Accueil.php';
 
+// Contrôleur de l'accueil
 class ControleurAccueil extends Controleur {
-
-    private $produit;
+    
+    // Objet modèle Médicament
+    private $fournisseur;
 
     public function __construct() {
-        $this->produit = new Produit();
+        $this->fournisseur = new Fournisseur();
     }
 
-    // Affiche la liste de tous les billets du blog
+    // Affiche la liste des fournisseurs
     public function index() {
-        $produits = $this->produit->getProduits();
-        $this->genererVue(array('produits' => $produits));
+        $fournisseurs = $this->fournisseur->getFournisseurs();
+        $this->genererVue(array('fournisseurs' => $fournisseurs));
     }
-
+    
 }
